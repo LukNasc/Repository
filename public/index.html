@@ -6,7 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curso Ecman Script</title>
 </head>
+<style>
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    li{
+        clear: both;
+        margin-top:20px; 
+    }
+
+    img{
+        width: 80px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    strong{
+        font-size:20px;
+    }
+
+    p{
+        margin: 5px 0;
+    }
+    #repository{
+        padding: 10dx;
+        height: 40px;
+        width: 300px;
+        font-size: 15px;
+    }
+    button{
+        height: 49px;
+        padding: 10px;
+    
+    }
+
+</style>
 <body>
+    <form id="repo-form">
+        <input type="text" name="repository"  placeholder="repository" id="repository">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="repo-list">
+    
+    </ul>
     <script src="bundle.js"></script>
 </body>
 </html>
